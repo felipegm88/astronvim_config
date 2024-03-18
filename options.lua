@@ -7,6 +7,10 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    shiftwidth = 4,
+    tabstop = 4,
+    list = true,
+    listchars = "tab:>·",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
